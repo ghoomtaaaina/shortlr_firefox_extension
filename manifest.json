@@ -1,0 +1,18 @@
+{
+
+  "description": "Coding Blocks URL Shortener",
+  "manifest_version": 2,
+  "name": "CB Url Shortener",
+  "version": "1",
+ 
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/page-16.png"
+    },
+    "default_popup" : "./popup.html"
+  },
+
+  "permissions" : [
+      "tabs",  "activeTab"
+  ]
+}
